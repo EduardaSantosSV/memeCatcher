@@ -1,0 +1,7 @@
+# Versões testadas com Python 3.12.
+# O mediapipe 0.10.14 ainda traz a API legada "solutions" usada pelo main.py
+# e já instala o opencv-contrib-python. Não instale o opencv-python junto:
+# os dois pacotes disputam o mesmo módulo cv2.
+mediapipe==0.10.14
+opencv-contrib-python==5.0.0.93
+numpy==2.5.1
